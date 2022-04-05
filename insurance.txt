@@ -1,0 +1,124 @@
+﻿{
+    "Sheet1": [
+        {
+            "billID": "1",
+            "dateOfRequest": "2/1/22",
+            "dateOfApprove": "2/4/22",
+            "claimedAmount": "35000",
+            "approvedAmount": "35000",
+            "approver": "1",
+            "date": "2/14/22",
+            "service": "general",
+            "amount": "35000",
+            "status": "approved"
+        },
+        {
+            "billID": "2",
+            "dateOfRequest": "2/2/22",
+            "dateOfApprove": "2/5/22",
+            "claimedAmount": "100000",
+            "approvedAmount": "100000",
+            "approver": "4",
+            "date": "2/15/22",
+            "service": "biopsy",
+            "amount": "100000",
+            "status": "completed"
+        },
+        {
+            "billID": "3",
+            "dateOfRequest": "2/3/22",
+            "dateOfApprove": "2/6/22",
+            "claimedAmount": "250000",
+            "approvedAmount": "250000",
+            "approver": "2",
+            "date": "2/16/22",
+            "service": "ct scan",
+            "amount": "250000",
+            "status": "completed"
+        },
+        {
+            "billID": "4",
+            "dateOfRequest": "2/4/22",
+            "dateOfApprove": "2/7/22",
+            "claimedAmount": "19000",
+            "approvedAmount": "19000",
+            "approver": "4",
+            "date": "2/17/22",
+            "service": "mri scan",
+            "amount": "19000",
+            "status": "completed"
+        },
+        {
+            "billID": "5",
+            "dateOfRequest": "2/5/22",
+            "dateOfApprove": "2/8/22",
+            "claimedAmount": "21300",
+            "approvedAmount": "21300",
+            "approver": "5",
+            "date": "2/18/22",
+            "service": "general",
+            "amount": "21300",
+            "status": "completed"
+        },
+        {
+            "billID": "6",
+            "dateOfRequest": "2/6/22",
+            "dateOfApprove": "2/9/22",
+            "claimedAmount": "234200",
+            "approvedAmount": "234200",
+            "approver": "2",
+            "date": "2/19/22",
+            "service": "general",
+            "amount": "234200",
+            "status": "completed"
+        },
+        {
+            "billID": "7",
+            "dateOfRequest": "2/7/22",
+            "dateOfApprove": "2/10/22",
+            "claimedAmount": "96900",
+            "approvedAmount": "96900",
+            "approver": "3",
+            "date": "2/20/22",
+            "service": "mri scan",
+            "amount": "96900",
+            "status": "completed"
+        },
+        {
+            "billID": "8",
+            "dateOfRequest": "2/8/22",
+            "dateOfApprove": "2/11/22",
+            "claimedAmount": "14800",
+            "approvedAmount": "14800",
+            "approver": "3",
+            "date": "2/21/22",
+            "service": "ct scan",
+            "amount": "14800",
+            "status": "approved"
+        },
+        {
+            "billID": "9",
+            "dateOfRequest": "2/9/22",
+            "dateOfApprove": "2/12/22",
+            "claimedAmount": "167350",
+            "approvedAmount": "167350",
+            "approver": "2",
+            "date": "2/22/22",
+            "service": "biopsy",
+            "amount": "167350",
+            "status": "completed"
+        },
+        {
+            "billID": "10",
+            "dateOfRequest": "2/10/22",
+            "dateOfApprove": "2/13/22",
+            "claimedAmount": "56900",
+            "approvedAmount": "56900",
+            "approver": "5",
+            "date": "2/23/22",
+            "service": "biopsy",
+            "amount": "56900",
+            "status": "approved"
+        }
+    ]
+}

@@ -1,0 +1,104 @@
+﻿{
+    "Sheet1": [
+        {
+            "billID": "1",
+            "transactionID": "123456",
+            "transactionAmount": "35000",
+            "payer": "1",
+            "status": "approved",
+            "date": "3/22/22",
+            "service": "checkup",
+            "amount": "35000"
+        },
+        {
+            "billID": "2",
+            "transactionID": "234567",
+            "transactionAmount": "100000",
+            "payer": "1",
+            "status": "completed",
+            "date": "2/28/22",
+            "service": "checkup",
+            "amount": "100000"
+        },
+        {
+            "billID": "3",
+            "transactionID": "345678",
+            "transactionAmount": "250000",
+            "payer": "1",
+            "status": "completed",
+            "date": "3/21/22",
+            "service": "checkup",
+            "amount": "250000"
+        },
+        {
+            "billID": "4",
+            "transactionID": "456789",
+            "transactionAmount": "19000",
+            "payer": "1",
+            "status": "completed",
+            "date": "3/15/22",
+            "service": "checkup",
+            "amount": "19000"
+        },
+        {
+            "billID": "5",
+            "transactionID": "567890",
+            "transactionAmount": "21300",
+            "payer": "1",
+            "status": "completed",
+            "date": "3/15/22",
+            "service": "checkup",
+            "amount": "21300"
+        },
+        {
+            "billID": "6",
+            "transactionID": "678901",
+            "transactionAmount": "234200",
+            "payer": "1",
+            "status": "completed",
+            "date": "3/8/22",
+            "service": "checkup",
+            "amount": "234200"
+        },
+        {
+            "billID": "7",
+            "transactionID": "789012",
+            "transactionAmount": "96900",
+            "payer": "1",
+            "status": "completed",
+            "date": "3/3/22",
+            "service": "checkup",
+            "amount": "96900"
+        },
+        {
+            "billID": "8",
+            "transactionID": "890123",
+            "transactionAmount": "14800",
+            "payer": "1",
+            "status": "approved",
+            "date": "3/18/22",
+            "service": "checkup",
+            "amount": "14800"
+        },
+        {
+            "billID": "9",
+            "transactionID": "901234",
+            "transactionAmount": "167350",
+            "payer": "1",
+            "status": "completed",
+            "date": "3/17/22",
+            "service": "checkup",
+            "amount": "167350"
+        },
+        {
+            "billID": "10",
+            "transactionID": "243554",
+            "transactionAmount": "56900",
+            "payer": "1",
+            "status": "approved",
+            "date": "3/13/22",
+            "service": "checkup",
+            "amount": "56900"
+        }
+    ]
+}
