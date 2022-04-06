@@ -4,9 +4,9 @@ import com.amazonaws.regions.Regions;
 
 public class Constants {
 	
-	public static final String ACCESSKEY = "AKIAQY7BMQIJB4MLFQMS";
+	public static final String ACCESSKEY = "*****";
 	
-	public static final String SECRETKEY = "VTOXXFXjTRbP75ESjfkWjnJKspHKfob4eYAMqV76";
+	public static final String SECRETKEY = "*****";
 	
 	public static final Regions REGION = Regions.US_EAST_1;
 	
