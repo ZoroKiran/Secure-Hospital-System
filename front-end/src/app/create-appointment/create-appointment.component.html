@@ -1,0 +1,58 @@
+<div
+  fxLayout="column"
+  style="padding-top: 20px"
+  fxLayoutAlign="space-around center"
+>
+  <div fxLayout="row" fxLayoutAlign="center center">
+    <div style="padding-right: 50px">Doctors:</div>
+    <mat-form-field appearance="fill">
+      <mat-label>Select</mat-label>
+      <mat-select (selectionChange)="onDoctorSelect($event.value)">
+        <mat-option *ngFor="let doctor of doctors" [value]="doctor">{{
+          doctor.name
+        }}</mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+
+  <div *ngIf="availableAppointment" fxLayout="row" fxLayoutAlign="center center">
+    <div style="padding-right: 50px">Pick Your date:</div>
+    <mat-radio-group
+      aria-labelledby="example-radio-group-label"
+      class="example-radio-group"
+      [(ngModel)]="selectedDate"
+    >
+      <mat-radio-button
+        class="example-radio-button"
+        *ngFor="let appointment of availableAppointment"
+        [value]="appointment.date"
+        (change)="dateSelected($event)"
+      >
+        {{ appointment.date | date : 'MM-dd-yyyy'}}
+      </mat-radio-button>
+    </mat-radio-group>
+  </div>
+  <div *ngIf="availableTime" fxLayout="row" fxLayoutAlign="center center">
+    <div style="padding-right: 50px">Pick Your time:</div>
+    <mat-radio-group
+      aria-labelledby="example-radio-group-label"
+      class="example-radio-group"
+      [(ngModel)]="selectedTime"
+    >
+      <mat-radio-button
+        class="example-radio-button"
+        *ngFor="let time of availableTime"
+        [value]="time"
+      >
+        {{ time}}
+      </mat-radio-button>
+    </mat-radio-group>
+  </div>
+  <button mat-raised-button color="primary" [disabled]="appointmentBooked" (click)="onSubmit()">Submit</button>
+  <div *ngIf="appointmentBooked">
+    Appointment Booked
+  </div>
+  <div *ngIf="errorBooking">
+    Apoointment is already booked for selected date and time
+  </div>
+</div>
